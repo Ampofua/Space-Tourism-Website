@@ -1,0 +1,77 @@
+body {
+  background-image: url(assets/technology/background-technology-desktop.jpg);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.header {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 15px; 
+  color: white; 
+  position: relative; 
+}
+
+/* Logo styling */
+.logo {
+  margin-left: 0; /* Ensure it's aligned to the far left */
+  display: flex;
+  align-items: center; /* Align the logo vertically */
+  position: absolute; /* Position the logo absolutely */
+  left: 0; /* Stick the logo to the left */
+}
+
+/* Navigation styling */
+.nav {
+  background-color: rgba(111, 109, 109, 0.5); /* Background color starts from the navigation */
+  padding: 15px 30px; /* Padding for the nav items */
+  margin-left: 500px; /* Start the nav from after the logo */
+  display: flex;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+}
+
+.nav li {
+  margin: 0 15px; 
+}
+
+.nav a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.nav a:hover {
+  text-decoration: underline; 
+  text-decoration-thickness: 3px; 
+  text-underline-offset: 30px;
+}
+
+
+.intro {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.vehicle {
+  color: white;
+  line-height: 1.5;
+  height: 0vh;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+}

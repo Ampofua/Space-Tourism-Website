@@ -1,0 +1,80 @@
+body {
+  background-image: url(assets/crew/background-crew-desktop.jpg);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: flex-start; /* Align items starting from the left */
+  align-items: center; /* Center items vertically */
+  padding: 15px; /* Padding around the header */
+  color: white; /* Text color */
+  position: relative; /* Ensure logo stays at the left */
+}
+
+/* Logo styling */
+.logo {
+  margin-left: 0; /* Ensure it's aligned to the far left */
+  display: flex;
+  align-items: center; /* Align the logo vertically */
+  position: absolute; /* Position the logo absolutely */
+  left: 0; /* Stick the logo to the left */
+}
+
+/* Navigation styling */
+.nav {
+  background-color: rgba(111, 109, 109, 0.5); /* Background color starts from the navigation */
+  padding: 15px 30px; /* Padding for the nav items */
+  margin-left: 500px; /* Start the nav from after the logo */
+  display: flex; /* Align items horizontally */
+}
+
+.nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal list */
+}
+
+.nav li {
+  margin: 0 15px; /* Spacing between list items */
+}
+
+.nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+  text-decoration-thickness: 3px; /* Custom thickness */
+  text-underline-offset: 30px; /* Adjust the space between text and underline */
+}
+
+
+#intro {
+  color: white;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-size:x-large;
+}
+
+.flight {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  line-height: 1.7;
+  height: 0vh;
+}
+
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+  }
+
+#she {
+  font-size:xx-large;
+}
